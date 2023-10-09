@@ -14,7 +14,11 @@ Modern Command Line Tools are the lifeblood of development and system administra
 - [Junegunn for fzf](#junegunn-for-fzf)
 - [Dandavison for delta](#dandavison-for-delta)
 - [acme.sh](#acmesh)
-- [Continuation of open-source support in 2023 and beyond](#continuation-of-open-source-support-in-2023-and-beyond)
+- [Caddy](#caddy)
+- [jqnatividad with qsv](#jqnatividad-with-qsv)
+- [solidiquis for erdtree](#solidiquis-for-erdtree)
+- [GoAccess](#goaccess)
+- [Continuation of open-source support](#continuation-of-open-source-support)
 - [A call to action](#a-call-to-action)
 
 ## Aristocratos and the fabulous btop
@@ -85,9 +89,46 @@ Our sincere appreciation goes to [Neil Pang](https://github.com/Neilpang), creat
 
 In today's security-focused digital environment, having a robust, flexible, and easy-to-use SSL management tool like `acme.sh` is essential. Thank you Neil and the acme.sh team, for providing this must-have resource! 🛡️
 
-## Continuation of open-source support in 2023 and beyond
+## Caddy
 
-We will continue to actively support incredible open-source projects in 2023, and we look forward to doing the same in the following years. We believe in the sustainability, growth, and innovative potential of open source, and will remain dedicated contributors to this invaluable ecosystem.
+Big appreciation for [Caddy](https://github.com/caddyserver/caddy), a swift, extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS, elegantly crafted in Go ensuring memory safety. 🛡️🔒
+
+Steffen Busch - WMACCESS Product Manager:
+> We're thrilled about integrating Caddy into our production environment in the upcoming months. The excellent, up-to-date documentation has been a valuable resource in our preparation.
+
+We're continuously sponsoring the Caddy project, expressing our gratitude and support towards the Caddy community and maintainers for delivering a top-notch web server. This web server is not just a tool; it's a valuable asset in our tech stack, promising a secure, efficient web serving experience. A massive thank you to the Caddy community for this outstanding open-source contribution! 🙏
+
+## jqnatividad with qsv
+
+A huge shoutout to Joel Natividad, aka [@jqnatividad](https://github.com/jqnatividad), for developing [qsv](https://github.com/jqnatividad/qsv), an exceptional tool for managing CSV files with ease and efficiency.
+
+`qsv` is more than just a CSV handler; it's a robust toolkit. Its capability of slicing 🔪, dicing, and analyzing 📊 CSV files makes it an indispensable tool for anyone dealing with large data sets in CSV format.
+
+We have integrated `qsv` into our workflow and it has remarkably improved our CSV data feed generation testing. A big thank you to Joel for this invaluable contribution to the open-source community!
+
+## solidiquis for erdtree
+
+Kudos to Benji Nguyen, aka [@solidiquis](https://github.com/solidiquis), for crafting [erdtree](https://github.com/solidiquis/erdtree), a modern, cross-platform, and multi-threaded filesystem and disk-usage utility, which operates under the command `erd`.
+
+`erd` is not merely a disk-usage utility; it's a visual delight. With its colorful 🎨, beautiful 🖼️ output, understanding disk usage has never been more enjoyable. 🎉
+
+Steffen Busch - WMACCESS Product Manager:
+> I've found `erd` to be a stellar replacement for the traditional `tree` command. My alias `TREE="erd --human --long --level 1 --icons --hidden --sort name"` has become a daily driver in my workflow, offering a much more engaging and informative view of our filesystem. The colorful and aesthetic output makes disk analysis not just insightful, but also visually pleasing.
+
+We wholeheartedly recommend `erd` to those aiming to add a splash of color to their disk analysis endeavors. A colossal thank you to Benji for this vibrant and invaluable addition to the open-source sphere!
+
+## GoAccess
+
+A big salute to Gerardo O., aka [@allinurl](https://github.com/allinurl), for developing [GoAccess](https://github.com/allinurl/goaccess), a real-time web log analyzer 📊🔍 and interactive viewer that operates effortlessly in a terminal on *nix systems or through your web browser.
+
+Steffen Busch - WMACCESS Product Manager:
+> I am particularly enamored with the real-time HTML interface of GoAccess. It not only allows for immediate analysis and visualization of web logs, but also provides an intuitive, easy-to-navigate user experience.
+
+We're excited about the potential of GoAccess to enhance our web log analysis efforts further. Its seamless integration with Caddy, as seen in [this GitHub issue](https://github.com/allinurl/goaccess/issues/2564) where Gerardo provided prompt support, demonstrates the active and responsive community behind GoAccess. A huge thank you to Gerardo for this substantial open-source contribution! 🙌💻
+
+## Continuation of open-source support
+
+We will continue to actively support incredible open-source projects in the following years. We believe in the sustainability, growth, and innovative potential of open source, and will remain dedicated contributors to this invaluable ecosystem.
 
 ## A call to action
 
