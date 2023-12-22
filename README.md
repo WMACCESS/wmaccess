@@ -50,8 +50,8 @@ Now, we are leveraging GitHub to directly extend our financial contributions to 
 
 For detailed information on the developers or projects we have supported, please refer to the following posts:
 
-- [Open-source support in 2023: Focus on Modern Command Line Tools](open-source-support-2023.md)
-- _More to be added..._
+- [Open-source support in 2023](open-source-support-2023.md)
+- [Open-source support in 2024](open-source-support-2024.md)
 
 ## 📣 A call to action
 
