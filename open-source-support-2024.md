@@ -8,6 +8,8 @@ We remain steadfast in our dedication to fostering a thriving, innovative open-s
 
 - [Caddy](#caddy)
 - [Louis Lam with Uptime Kuma](#louis-lam-with-uptime-kuma)
+- [lnav](#lnav-log-file-navigator)
+- [Healthchecks](#healthchecks-)
 
 ## Caddy
 
@@ -23,6 +25,28 @@ This modern, user-friendly tool boasts a fantastic web user interface and offers
 [Louis Lam](https://github.com/louislam), the developer behind Uptime Kuma, has created a tool that is an essential supplement to other external monitoring services, allowing for comprehensive oversight and operational efficiency.
 
 We are proud to support Uptime Kuma, helping to further its development and ensuring it remains a valuable asset for developers and system administrators worldwide 🌍.
+
+## lnav (Log File Navigator)
+
+[lnav](https://lnav.org/) 🛠️ from [Tim Stack](https://github.com/tstack/lnav) is a powerful tool for viewing and analyzing log files directly in the terminal. It offers:
+
+- Log Highlighting: Highlights key elements from log entries, such as error messages, timestamps, and log levels, for better readability and faster analysis.
+- Log File Merging: Combines multiple log files, even mixing compressed .gz files with uncompressed ones, for seamless analysis.
+- Error and Warning Navigation: Quickly navigate to the next or previous error or warning, making it easy to pinpoint issues.
+- Live Operation: Automatically updates with new log lines, searches as you type, and validates SQL queries in real time.
+- Support for Various Formats: Recognizes a wide range of log formats and allows users to define custom formats for tailored analysis.
+
+One feature we find particularly outstanding is its **ability to query log files using SQL**. This functionality allows us to analyze structured log formats, such as **JSON access logs from our Caddy web server**, with ease. This makes log analysis both intuitive and incredibly efficient.
+
+We’re thrilled to support this tool and the efforts of its creator, Tim Stack. For the latest release updates and announcements, follow [lnav on X](https://x.com/lnavapp).
+
+## Healthchecks ✅
+
+[Healthchecks](https://github.com/healthchecks/healthchecks) by [Pēteris Caune](https://github.com/cuu508) is an open-source service for monitoring recurring tasks like Cron jobs. It operates on the "Dead man's switch" principle, where systems regularly “check in” to confirm everything is running smoothly. Missed check-ins trigger alerts 🚨 to ensure no critical task goes unnoticed.
+
+We use the self-hosted version of Healthchecks to maintain full control and privacy over our monitoring setup. Cron jobs send their execution outputs directly to our instance of Healthchecks, where they are displayed in a user-friendly and highly functional web interface, offering a clear and organized view of the data.
+
+A highlight from Healthchecks' developer, Pēteris Caune, is his **amazing blog post** about advanced Crontab configurations, such as scheduling tasks for the **second and fourth Sunday of a month**. This showcases the ingenuity and practical expertise behind the project. ([Read more here](https://blog.healthchecks.io/2022/09/schedule-cron-job-the-funky-way/))
 
 ## Continuation of open-source support in 2024 and beyond
 
