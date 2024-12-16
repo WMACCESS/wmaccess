@@ -10,10 +10,11 @@ We remain steadfast in our dedication to fostering a thriving, innovative open-s
 - [Louis Lam with Uptime Kuma](#louis-lam-with-uptime-kuma)
 - [lnav](#lnav-log-file-navigator)
 - [Healthchecks](#healthchecks-)
+- [Password Pusher](#password-pusher)
 
 ## Caddy
 
-We're continuously sponsoring the Caddy project, expressing our gratitude and support towards the Caddy community and maintainers for delivering a top-notch web server. This web server is not just a tool; it's a valuable asset in our tech stack, promising a secure, efficient web serving experience. A massive thank you to the Caddy community for this outstanding open-source contribution! 🙏
+We're continuously sponsoring the [Caddy project](https://github.com/caddyserver/caddy), expressing our gratitude and support towards the Caddy community and maintainers for delivering a top-notch web server. This web server is not just a tool; it's a valuable asset in our tech stack, promising a secure, efficient web serving experience. A massive thank you to the Caddy community for this outstanding open-source contribution! 🙏
 
 Steffen Busch - WMACCESS Product Manager:
 > We successfully integrated Caddy into our production environment in January 2024. The launch of our new tech stack with Caddy has been a significant milestone, greatly assisted by its superb, up-to-date documentation. As we continue to optimize our systems, we're excited about the upcoming enablement of HTTP/3 in the following weeks, promising even greater performance and efficiency.
@@ -48,9 +49,20 @@ We use the self-hosted version of Healthchecks to maintain full control and priv
 
 A highlight from Healthchecks' developer, Pēteris Caune, is his **amazing blog post** about advanced Crontab configurations, such as scheduling tasks for the **second and fourth Sunday of a month**. This showcases the ingenuity and practical expertise behind the project. ([Read more here](https://blog.healthchecks.io/2022/09/schedule-cron-job-the-funky-way/))
 
+## Password Pusher
+
+[Password Pusher 🔐](https://github.com/pglombardo/pwpush) by [Peter Giacomo Lombardo](https://x.com/pglombardo) is a tool designed to securely share sensitive information with automatic expiration and deletion after a set number of views or duration. It includes full audit logs to track who, what, and when, providing a reliable solution for secure communication.
+
+Steffen Busch - WMACCESS Product Manager:
+> We use Password Pusher to securely provide initial and reset passwords to our WMACCESS users. Time-limited, self-expiring links ensure that sensitive data never lingers in inboxes, adding an essential layer of security to the process.  
+
+The self-hosted option ensures complete control over password delivery, offering flexibility and enhanced privacy. Its user-friendly interface makes secure password sharing straightforward for both administrators and end users.
+
+Follow the latest updates on [Password Pusher's X (Twitter) feed](https://x.com/pwpush), where Peter shares news and insights about this lightweight yet robust solution for secure password distribution.
+
 ## Continuation of open-source support in 2024 and beyond
 
-We will continue to actively support incredible open-source projects in 2024, and we look forward to doing the same in the following years. We believe in the sustainability, growth, and innovative potential of open source, and will remain dedicated contributors to this invaluable ecosystem.
+We will continue to actively support incredible open-source projects in the following years. We believe in the sustainability, growth, and innovative potential of open source, and will remain dedicated contributors to this invaluable ecosystem.
 
 ## A call to action
 
